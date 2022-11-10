@@ -43,6 +43,7 @@ def test(func):
         else:
             print("Error in test №",test_number + 1)
     print("Required time for",NUMBER_OF_TESTS, "tests is", total_timer, "seconds")
+	print("Average time for",NUMBER_OF_TESTS, "tests is", total_timer/NUMBER_OF_TESTS, "seconds")
 
 test(BubbleSort)
     
